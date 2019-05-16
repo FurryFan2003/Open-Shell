@@ -1,0 +1,61 @@
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\bin\Debug\Open Shell.exe.config
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\bin\Debug\Open Shell.exe
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\bin\Debug\Open Shell.pdb
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\bin\Debug\Open Shell.xml
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\Open Shell.vbprojAssemblyReference.cache
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\Open Shell.vbproj.GenerateResource.cache
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\Open Shell.vbproj.CoreCompileInputs.cache
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\Open Shell.exe
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\Open Shell.xml
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\Open Shell.pdb
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.BackdropForm.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.MainForm.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.Resources.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.NewExplorer.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.ImgError.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.AppBoxForm.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.ProcessKillError.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.SystemPerfMonitorForm.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.KillProcessSelected.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.ProcessKilledSuccessfully.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.PowerManagementForm.resources
+C:\Users\pawel\Desktop\Stuff\Open Shell\Open Shell\obj\Debug\OpenShell32.ErrorPowerCFG.resources
+F:\Open Shell\Open Shell\bin\Debug\Open Shell.exe.config
+F:\Open Shell\Open Shell\bin\Debug\Open Shell.exe
+F:\Open Shell\Open Shell\bin\Debug\Open Shell.pdb
+F:\Open Shell\Open Shell\bin\Debug\Open Shell.xml
+F:\Open Shell\Open Shell\obj\Debug\Open Shell.vbprojAssemblyReference.cache
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.AboutFileManager.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.AboutOpenShell.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.AdvancedSettingsPanel.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.AppBoxForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.BackdropForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.CreditsEgg.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.ErrorPowerCFG.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.FileManagerForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.MainForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.ImgError.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.KillProcessSelected.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.MemoryBoundaryError.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.MissingSettingsError.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.Resources.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.PanelForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.PowerManagementForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.ProcessKilledSuccessfully.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.ProcessKillError.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.ResetSettingsDialog.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.SettingsForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.SystemPerfMonitorForm.resources
+F:\Open Shell\Open Shell\obj\Debug\Open Shell.vbproj.GenerateResource.cache
+F:\Open Shell\Open Shell\obj\Debug\Open Shell.vbproj.CoreCompileInputs.cache
+F:\Open Shell\Open Shell\obj\Debug\Open Shell.exe
+F:\Open Shell\Open Shell\obj\Debug\Open Shell.xml
+F:\Open Shell\Open Shell\obj\Debug\Open Shell.pdb
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.CLIForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.DOSBOXCOMP.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.Updater.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.LicenseForm.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.LicenseForm2.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.SplashScreen.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.IntegFailDialog.resources
+F:\Open Shell\Open Shell\obj\Debug\OpenShell32.LoginForm.resources

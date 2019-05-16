@@ -1,0 +1,7 @@
+Help File For Console
+
+exit - Exits the console
+help - Lists help file
+filename e.g "nano" - opens program from "Open_Shell/CLI/Apps" folder
+dosboxcomp - opens a gui for dosbox dos program compatibility
+fastfail - crashes Open Shell

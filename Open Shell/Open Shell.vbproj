@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCE4D297-860F-4CD5-9826-6BBBBCC52161}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OpenShell32.My.MyApplication</StartupObject>
+    <RootNamespace>OpenShell32</RootNamespace>
+    <AssemblyName>Open Shell</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Open Shell.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Open Shell.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Proycontec-Beach-Shell.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutFileManager.Designer.vb">
+      <DependentUpon>AboutFileManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutFileManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutOpenShell.Designer.vb">
+      <DependentUpon>AboutOpenShell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutOpenShell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedSettingsPanel.Designer.vb">
+      <DependentUpon>AdvancedSettingsPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedSettingsPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppBoxForm.Designer.vb">
+      <DependentUpon>AppBoxForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBoxForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="BackdropForm.Designer.vb">
+      <DependentUpon>BackdropForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BackdropForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLIForm.Designer.vb">
+      <DependentUpon>CLIForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CLIForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditsEgg.Designer.vb">
+      <DependentUpon>CreditsEgg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreditsEgg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOSBOXCOMP.Designer.vb">
+      <DependentUpon>DOSBOXCOMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DOSBOXCOMP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorPowerCFG.Designer.vb">
+      <DependentUpon>ErrorPowerCFG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPowerCFG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileManagerForm.Designer.vb">
+      <DependentUpon>FileManagerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FileManagerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImgError.Designer.vb">
+      <DependentUpon>ImgError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImgError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntegFailDialog.Designer.vb">
+      <DependentUpon>IntegFailDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntegFailDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KillProcessSelected.Designer.vb">
+      <DependentUpon>KillProcessSelected.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KillProcessSelected.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseForm.Designer.vb">
+      <DependentUpon>LicenseForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseForm2.Designer.vb">
+      <DependentUpon>LicenseForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoryBoundaryError.Designer.vb">
+      <DependentUpon>MemoryBoundaryError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MemoryBoundaryError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissingSettingsError.Designer.vb">
+      <DependentUpon>MissingSettingsError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MissingSettingsError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PanelForm.Designer.vb">
+      <DependentUpon>PanelForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PanelForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerManagementForm.Designer.vb">
+      <DependentUpon>PowerManagementForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PowerManagementForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessKilledSuccessfully.Designer.vb">
+      <DependentUpon>ProcessKilledSuccessfully.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessKilledSuccessfully.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessKillError.Designer.vb">
+      <DependentUpon>ProcessKillError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessKillError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetSettingsDialog.Designer.vb">
+      <DependentUpon>ResetSettingsDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetSettingsDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.vb">
+      <DependentUpon>SettingsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemPerfMonitorForm.Designer.vb">
+      <DependentUpon>SystemPerfMonitorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemPerfMonitorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updater.Designer.vb">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutFileManager.resx">
+      <DependentUpon>AboutFileManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutOpenShell.resx">
+      <DependentUpon>AboutOpenShell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvancedSettingsPanel.resx">
+      <DependentUpon>AdvancedSettingsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBoxForm.resx">
+      <DependentUpon>AppBoxForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackdropForm.resx">
+      <DependentUpon>BackdropForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLIForm.resx">
+      <DependentUpon>CLIForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditsEgg.resx">
+      <DependentUpon>CreditsEgg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOSBOXCOMP.resx">
+      <DependentUpon>DOSBOXCOMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorPowerCFG.resx">
+      <DependentUpon>ErrorPowerCFG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileManagerForm.resx">
+      <DependentUpon>FileManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImgError.resx">
+      <DependentUpon>ImgError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntegFailDialog.resx">
+      <DependentUpon>IntegFailDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KillProcessSelected.resx">
+      <DependentUpon>KillProcessSelected.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseForm.resx">
+      <DependentUpon>LicenseForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseForm2.resx">
+      <DependentUpon>LicenseForm2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemoryBoundaryError.resx">
+      <DependentUpon>MemoryBoundaryError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissingSettingsError.resx">
+      <DependentUpon>MissingSettingsError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelForm.resx">
+      <DependentUpon>PanelForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerManagementForm.resx">
+      <DependentUpon>PowerManagementForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessKilledSuccessfully.resx">
+      <DependentUpon>ProcessKilledSuccessfully.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessKillError.resx">
+      <DependentUpon>ProcessKillError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetSettingsDialog.resx">
+      <DependentUpon>ResetSettingsDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemPerfMonitorForm.resx">
+      <DependentUpon>SystemPerfMonitorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updater.resx">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-caution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-caution-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-full-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-good.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-good-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-low-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ac-adapter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-020-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-040-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-060.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-060-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-080-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-100-charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm-primary-missing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Proycontec-Beach-Shell.ico" />
+    <None Include="Resources\CreditsEgg.png" />
+    <None Include="Resources\CreditsEgg.mp3" />
+    <None Include="Resources\CreditsEgg2.png" />
+    <None Include="Resources\top.jpg" />
+    <None Include="Resources\right.jpg" />
+    <None Include="Resources\left.jpg" />
+    <None Include="Resources\bottom.jpg" />
+    <None Include="Resources\40-charging.png" />
+    <None Include="Resources\100-charging.png" />
+    <None Include="Resources\100.png" />
+    <None Include="Resources\80-charging.png" />
+    <None Include="Resources\80.png" />
+    <None Include="Resources\60-charging.png" />
+    <None Include="Resources\60.png" />
+    <None Include="Resources\40.png" />
+    <None Include="Resources\20-charging.png" />
+    <None Include="Resources\20.png" />
+    <None Include="Resources\0-charging.png" />
+    <None Include="Resources\gpm-primary-charged.png" />
+    <None Include="Resources\gpm-primary-000-charging.png" />
+    <None Include="Resources\gpm-primary-000.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

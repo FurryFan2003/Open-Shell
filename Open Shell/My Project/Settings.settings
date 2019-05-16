@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Backdrop" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Open_Shell\Backdrops\Default.jpg</Value>
+    </Setting>
+    <Setting Name="BackdropLayout" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Zoom</Value>
+    </Setting>
+    <Setting Name="PowerPlan" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="PanelPlacement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bottom</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
